@@ -1,9 +1,20 @@
 export default class Employee {
-  // constructor
+  constructor(id, name, title, phone){
+    this.phone = phone,
+    this.id = id,
+    this.name = name,
+    this.title = title
+  }
   
-  // updateName
+  employeeName(name){
+    this.name = name;
+  }
 
-  // updatePhone
+  updatePhone(phone){
+    this.phone = phone;
+  }
 
-   // updateTitle
+   updateTitle(title){
+     this.title = title;
+   }
 }
